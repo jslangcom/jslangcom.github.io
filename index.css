@@ -1,0 +1,54 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  color: #727882;
+}
+
+body {
+  max-width: 877px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+h1 + p {
+  margin-top: 1em;
+}
+
+p {
+  max-width: 800px;
+  line-height: 1.6em;
+  padding-left: 77px;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #04081A;
+  display: inline-block;
+  text-align: center;
+  margin: 2em 77px;
+  padding: 0.5em 1em;
+  border: 1px solid #4B4D58;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 #4B4D58;
+  background: #FFD415;
+}
+
+a h2 {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin-bottom: 0.6em;
+  text-shadow: 0 1px 0 white;
+}
+
+a h3 {
+  font-weight: 600;
+  line-height: 1.2em;
+}
